@@ -1,0 +1,4 @@
+/home/zxd/projects/darknet-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zxd/projects/darknet-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zxd/projects/darknet-master/cmake-build-debug/CMakeFiles/darknet.dir
+/home/zxd/projects/darknet-master/cmake-build-debug/CMakeFiles/dnl.dir

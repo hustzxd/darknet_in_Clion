@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="darknet"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zxd/projects/darknet-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zxd/projects/darknet-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zxd/projects/darknet-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darknet">
+				<Option output="/home/zxd/projects/darknet-master/cmake-build-debug/darknet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxd/projects/darknet-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGPU"/>
+					<Add option="-DOPENCV"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/home/zxd/projects/darknet-master/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darknet/fast">
+				<Option output="/home/zxd/projects/darknet-master/cmake-build-debug/darknet" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxd/projects/darknet-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGPU"/>
+					<Add option="-DOPENCV"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/home/zxd/projects/darknet-master/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dnl">
+				<Option output="/home/zxd/projects/darknet-master/cmake-build-debug/libdnl.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxd/projects/darknet-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGPU"/>
+					<Add option="-DOPENCV"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/home/zxd/projects/darknet-master/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 dnl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dnl/fast">
+				<Option output="/home/zxd/projects/darknet-master/cmake-build-debug/libdnl.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zxd/projects/darknet-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGPU"/>
+					<Add option="-DOPENCV"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/home/zxd/projects/darknet-master/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 dnl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zxd/projects/darknet-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zxd/projects/darknet-master/src/activation_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/activation_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/activation_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/activations.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/activations.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/art.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/avgpool_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/avgpool_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/avgpool_layer_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/batchnorm_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/batchnorm_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/blas.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/blas.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/blas_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/box.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/box.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/captcha.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/cifar.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/classifier.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/classifier.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/coco.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/col2im.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/col2im.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/col2im_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/compare.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/connected_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/connected_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/convolutional_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/convolutional_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/convolutional_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/cost_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/cost_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/crnn_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/crnn_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/crop_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/crop_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/crop_layer_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/cuda.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/cuda.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/darknet.c">
+			<Option target="darknet"/>
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/data.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/data.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/deconvolutional_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/deconvolutional_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/deconvolutional_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/demo.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/demo.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/detection_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/detection_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/detector.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/dice.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/dropout_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/dropout_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/dropout_layer_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/gemm.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/gemm.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/go.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/gru_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/gru_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/im2col.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/im2col.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/im2col_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/image.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/image.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/list.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/list.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/local_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/local_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/matrix.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/matrix.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/maxpool_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/maxpool_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/maxpool_layer_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/network.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/network.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/network_kernels.cu">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/nightmare.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/normalization_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/normalization_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/option_list.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/option_list.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/parser.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/parser.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/region_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/region_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/reorg_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/reorg_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/rnn.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/rnn_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/rnn_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/rnn_vid.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/route_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/route_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/shortcut_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/shortcut_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/softmax_layer.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/softmax_layer.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/super.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/swag.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/tag.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/tree.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/tree.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/utils.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/utils.h">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/voxel.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/writing.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/src/yolo.c">
+			<Option target="dnl"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zxd/projects/darknet-master/cmake/CudaComputeTargetFlags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
