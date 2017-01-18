@@ -57,7 +57,7 @@ void forward_network_gpu(network net, network_state state) {
         state.input = l.output_gpu;
 
         //将每层的参数输出到文件里面，方便每层对应
-//        printf("%d:%d ", i, l.outputs);
+        printf("%d:%d ", i, l.outputs);
 //        char filename[60] = {0};
 //        char file_index[3] = {0};
 //        sprintf(file_index, "%d", i);
