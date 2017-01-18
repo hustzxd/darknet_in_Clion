@@ -57,21 +57,21 @@ void forward_network_gpu(network net, network_state state) {
         state.input = l.output_gpu;
 
         //将每层的参数输出到文件里面，方便每层对应
-        printf("%d:%d ", i, l.outputs);
-        char filename[60] = {0};
-        char file_index[3] = {0};
-        sprintf(file_index, "%d", i);
-        strcat(filename, "/home/zxd/data/layer_output/");
-        strcat(filename, file_index);
-        strcat(filename, "-layer.output");
-        printf(" %s ",filename);
-        FILE *fp = fopen(filename, "wb+");
-        if(!fp){
-            printf("file open error");
-            return;
-        }
-        fwrite(l.output_gpu, sizeof(float), l.outputs, fp);
-        fclose(fp);
+//        printf("%d:%d ", i, l.outputs);
+//        char filename[60] = {0};
+//        char file_index[3] = {0};
+//        sprintf(file_index, "%d", i);
+//        strcat(filename, "/home/zxd/data/layer_output/");
+//        strcat(filename, file_index);
+//        strcat(filename, "-layer.output");
+//        printf(" %s ",filename);
+//        FILE *fp = fopen(filename, "wb+");
+//        if(!fp){
+//            printf("file open error");
+//            return;
+//        }
+//        fwrite(l.output_gpu, sizeof(float), l.outputs, fp);
+//        fclose(fp);
     }
 }
 
