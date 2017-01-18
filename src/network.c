@@ -153,7 +153,24 @@ void forward_network(network net, network_state state)
             scal_cpu(l.outputs * l.batch, 0, l.delta, 1);
         }
         l.forward(l, state);
-        state.input = l.output;
+        state.input = l.output;//在这里可以看到每层的输出
+
+        //将每层的参数输出到文件里面，方便每层对应
+//        printf("%d:%d ", i, l.outputs);
+//        char filename[60] = {0};
+//        char file_index[3] = {0};
+//        sprintf(file_index, "%d", i);
+//        strcat(filename, "/home/zxd/data/layer_output/");
+//        strcat(filename, file_index);
+//        strcat(filename, "-layer.output");
+//        printf(" %s ",filename);
+//        FILE *fp = fopen(filename, "wb+");
+//        if(!fp){
+//            printf("file open error");
+//            return;
+//        }
+//        fwrite(l.output, sizeof(float), l.outputs, fp);
+//        fclose(fp);
     }
 }
 
@@ -173,10 +190,12 @@ void update_network(network net)
 float *get_network_output(network net)
 {
 #ifdef GPU
-    if (gpu_index >= 0) return get_network_output_gpu(net);
+    if (gpu_index >= 0)
+        return get_network_output_gpu(net);
 #endif 
     int i;
-    for(i = net.n-1; i > 0; --i) if(net.layers[i].type != COST) break;
+    for(i = net.n-1; i > 0; --i)
+        if(net.layers[i].type != COST) break;
     return net.layers[i].output;
 }
 
@@ -457,9 +476,11 @@ void top_predictions(network net, int k, int *index)
 float *network_predict(network net, float *input)
 {
 #ifdef GPU
-    if(gpu_index >= 0)  return network_predict_gpu(net, input);
+    if(gpu_index >= 0){
+        float *out = network_predict_gpu(net, input);
+        return out;
+    }
 #endif
-
     network_state state;
     state.net = net;
     state.index = 0;

@@ -59,6 +59,5 @@ int find_arg(int argc, char* argv[], char *arg);
 char *find_char_arg(int argc, char **argv, char *arg, char *def);
 int sample_array(float *a, int n);
 void print_statistics(float *a, int n);
-
 #endif
 
