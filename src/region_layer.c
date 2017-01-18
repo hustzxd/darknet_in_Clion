@@ -14,7 +14,7 @@ layer make_region_layer(int batch, int w, int h, int n, int classes, int coords)
     layer l = {0};
     l.type = REGION;
 
-    l.n = n;
+    l.n = n; //每个gride 预测的boxs数目
     l.batch = batch;
     l.h = h;
     l.w = w;

@@ -13,7 +13,7 @@ typedef enum {
 
 typedef struct network{
     float *workspace;
-    int n;      //network 的层数
+    int n;      //network 的总层数 init
     int batch;
     int *seen;
     float epoch;
@@ -40,19 +40,19 @@ typedef struct network{
     int adam;
     float B1;
     float B2;
-    float eps;
+    float eps;//????
 
-    int inputs;
+    int inputs; // net->h * net->w * net->c
     int h, w, c;
-    int max_crop;
-    int min_crop;
-    float angle;
-    float aspect;
-    float exposure;
-    float saturation;
-    float hue;
+    int max_crop;//?net->w * 2
+    int min_crop;//?net->w
+    float angle;//角度
+    float aspect;//方向
+    float exposure;//曝光
+    float saturation; //饱和度
+    float hue;//色调
 
-    int gpu_index;
+    int gpu_index;  //gpu init
     tree *hierarchy;
 
     #ifdef GPU
