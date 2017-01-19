@@ -484,7 +484,7 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
 
         image sized = resize_image(im, net.w, net.h);
 
-        //图片sized后写入到文件中
+//        图片sized后写入到文件中
 //        FILE *fp = fopen("/home/zxd/data/layer_output/sized_image", "wb+");
 //        if (!fp) {
 //            printf("file open error");
